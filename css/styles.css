@@ -1,0 +1,206 @@
+:root {
+  --main-title-color: #2e2f42;
+  --second-title-color: #ffffff;
+  --main-logo: #4d5ae5;
+  --studio-header: #2e2f42;
+  --studio-footer: #f4f4fd;
+  --list: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.description {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-title-color);
+}
+
+/* ---------------LOGO------------------ */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-logo);
+  cursor: pointer;
+}
+
+.header-studio {
+  color: var(--studio-header);
+}
+.footer-studio {
+  color: #f4f4fd;
+}
+
+/* ---------------HEADER------------------ */
+
+.header-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-link {
+  font-weight: 500;
+  color: var(--main-title-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+  cursor: pointer;
+}
+.adress {
+  font-style: normal;
+}
+.contact {
+  font-weight: 400;
+  color: var(--list);
+}
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+  cursor: pointer;
+}
+
+/* ---------------HERO------------------ */
+
+.hero {
+  background: #2e2f42;
+}
+.title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+.hero-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--second-title-color);
+  background-color: #4d5ae5;
+}
+
+.button:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+/* ---------------WE CAN------------------ */
+
+.we-can {
+}
+.section-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ---------------ACTIVITY------------------ */
+
+/* ---------------OUR TEAM------------------ */
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.window {
+  background-color: #ffffff;
+}
+.person {
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.position {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ---------------FOOTER------------------ */
+.footer-section {
+  background: var(--main-title-color);
+}
+
+.footer-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--studio-footer);
+}
+
+/* ---------------FILTERS------------------ */
+
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  border: none;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+}
+
+/* ---------------OUR SERVICES------------------ */
+
+.item {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.app {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--list);
+}
