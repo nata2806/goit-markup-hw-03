@@ -5,6 +5,7 @@
   --studio-header: #2e2f42;
   --studio-footer: #f4f4fd;
   --list: #434455;
+  --card-gap: 24px;
 }
 
 p,
@@ -89,8 +90,11 @@ body {
 /* ---------------HEADER------------------ */
 
 .header {
+  width: 1440px;
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header-item {
   font-size: 16px;
@@ -258,7 +262,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   text-align: center;
-  padding-top: 32px;
+  margin-top: 32px;
 }
 .position {
   font-size: 16px;
@@ -267,7 +271,7 @@ body {
   color: #434455;
   text-align: center;
   padding-top: 8px;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 /* ---------------FOOTER------------------ */
 .footer-section {
@@ -289,17 +293,25 @@ body {
 
 /* ---------------FILTERS------------------ */
 
+.main-section-portfolio {
+  width: 586px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 96px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .portfolio-button {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
   border: none;
   color: #4d5ae5;
   background-color: #f4f4fd;
+  padding: 12px 24px;
 }
 
 .portfolio-button:hover,
@@ -309,15 +321,43 @@ body {
 
 /* ---------------OUR SERVICES------------------ */
 
+.content {
+  width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+}
+
+.card-set {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: -24px;
+  margin-top: -48px;
+}
+
+.card-set > .card-item {
+  flex-basis: culc(100% / 3 - 24px);
+  margin-left: 24px;
+  margin-top: 48px;
+}
+
 .item {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+  margin-top: 32px;
 }
 .app {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--list);
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
