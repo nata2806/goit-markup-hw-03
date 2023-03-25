@@ -39,10 +39,7 @@ body {
 }
 
 .container {
-  width: 1500px;
-  padding-left: 30px;
-  padding-right: 30px;
-
+  width: 1440px;
   margin: 0 auto;
 }
 
@@ -86,6 +83,7 @@ body {
 }
 .footer-studio {
   color: #f4f4fd;
+  line-height: 1.33;
 }
 
 /* ---------------HEADER------------------ */
@@ -139,6 +137,7 @@ body {
 
 .hero {
   background: #2e2f42;
+  height: 600px;
 }
 .title {
   font-size: 56px;
@@ -147,6 +146,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-title-color);
   width: 496px;
+  padding-top: 68px;
   padding-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -170,6 +170,9 @@ body {
   margin: 0 auto;
 }
 
+.button {
+  margin-bottom: 68px;
+}
 .button:hover,
 .button:focus {
   background-color: #404bbf;
@@ -179,12 +182,16 @@ body {
 /* ---------------WE CAN------------------ */
 
 .we-can {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .section-title {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+  padding-bottom: 8px;
 }
 .section-text {
   font-size: 16px;
@@ -197,12 +204,9 @@ body {
   display: flex;
   margin-left: 156px;
   gap: 24px;
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .section-item:last-child {
-  margin-right: 156px;
+  margin-right: 132px;
 }
 
 /* ---------------ACTIVITY------------------ */
@@ -214,12 +218,16 @@ body {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 120px;
 }
 
 .activity:last-child {
   margin-right: 156px;
 }
 
+.acttivity-size {
+  height: 532px;
+}
 .description {
   margin-bottom: 72px;
 }
@@ -228,6 +236,7 @@ body {
 
 .our-team {
   background-color: #f4f4fd;
+  height: 732px;
 }
 
 .team-item {
@@ -248,18 +257,24 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+  text-align: center;
+  padding-top: 32px;
 }
 .position {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 32px;
 }
 /* ---------------FOOTER------------------ */
 .footer-section {
   background: var(--main-title-color);
   padding-top: 100px;
   padding-bottom: 100px;
+  height: 312px;
 }
 
 .footer-description {
@@ -269,6 +284,7 @@ body {
   color: var(--studio-footer);
   padding-right: 1020px;
   padding-left: 156px;
+  padding-top: 16px;
 }
 
 /* ---------------FILTERS------------------ */
