@@ -40,7 +40,8 @@ body {
 }
 
 .container {
-  width: 1440px;
+  max-width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -72,7 +73,6 @@ body {
   text-transform: uppercase;
   color: var(--main-logo);
   cursor: pointer;
-  margin-left: 156px;
 }
 
 .header-logo {
@@ -90,7 +90,6 @@ body {
 /* ---------------HEADER------------------ */
 
 .header {
-  width: 1440px;
   padding-top: 24px;
   padding-bottom: 24px;
   margin-left: auto;
@@ -128,7 +127,6 @@ body {
 .header-list {
   display: flex;
   gap: 40px;
-  padding-right: 156px;
 }
 
 .header-navigation {
@@ -141,7 +139,6 @@ body {
 
 .hero {
   background: #2e2f42;
-  height: 600px;
 }
 .title {
   font-size: 56px;
@@ -150,8 +147,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-title-color);
   width: 496px;
-  padding-top: 68px;
-  padding-bottom: 48px;
+  margin-top: 68px;
+  margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -185,17 +182,12 @@ body {
 
 /* ---------------WE CAN------------------ */
 
-.we-can {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .section-title {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .section-text {
   font-size: 16px;
@@ -203,14 +195,12 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
 .section-item {
   display: flex;
-  margin-left: 156px;
-  gap: 24px;
+  width: calc(100% / 4)-24px;
 }
 .section-item:last-child {
-  margin-right: 132px;
+  margin-right: -24px;
 }
 
 /* ---------------ACTIVITY------------------ */
@@ -218,34 +208,27 @@ body {
 .activity {
   display: flex;
   gap: 24px;
-  margin-left: 156px;
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+
   padding-bottom: 120px;
 }
 
 .activity:last-child {
-  margin-right: 156px;
+  margin-right: -24px;
 }
 
-.acttivity-size {
-  height: 532px;
-}
 .description {
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 
 /* ---------------OUR TEAM------------------ */
 
 .our-team {
   background-color: #f4f4fd;
-  height: 732px;
 }
 
 .team-item {
   display: flex;
-  margin-left: 156px;
+
   gap: 24px;
 }
 
@@ -254,7 +237,7 @@ body {
 }
 
 .window:last-child {
-  margin-right: 156px;
+  margin-right: -24px;
 }
 .person {
   font-size: 20px;
@@ -278,7 +261,6 @@ body {
   background: var(--main-title-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 312px;
 }
 
 .footer-description {
@@ -286,8 +268,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--studio-footer);
-  padding-right: 1020px;
-  padding-left: 156px;
+  width: 264px;
   padding-top: 16px;
 }
 
