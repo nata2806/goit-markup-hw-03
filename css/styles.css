@@ -57,6 +57,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-title-color);
+  margin-bottom: 72px;
 }
 
 /* ---------------LOGO------------------ */
@@ -94,6 +95,7 @@ body {
   padding-bottom: 24px;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-item {
   font-size: 16px;
@@ -102,6 +104,7 @@ body {
 }
 
 .header-link {
+  font-weight: 500;
   color: var(--main-title-color);
 }
 .header-link:hover,
@@ -192,9 +195,13 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.block {
+  width: 264px;
+  flex-basis: culc((100% / 4 - 72));
+  margin-right: 24px;
+}
 .section-item {
   display: flex;
-  width: calc(100% / 4)-24px;
 }
 .section-item:last-child {
   margin-right: -24px;
@@ -210,10 +217,6 @@ body {
 
 .activity:last-child {
   margin-right: -24px;
-}
-
-.description {
-  padding-bottom: 72px;
 }
 
 /* ---------------OUR TEAM------------------ */
@@ -232,13 +235,17 @@ body {
 .window:last-child {
   margin-right: -24px;
 }
+.options {
+  padding: 32px 16px;
+}
+
 .person {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   text-align: center;
-  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .position {
   font-size: 16px;
@@ -246,8 +253,6 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-  padding-top: 8px;
-  margin-bottom: 32px;
 }
 /* ---------------FOOTER------------------ */
 .footer-section {
@@ -265,6 +270,13 @@ body {
   padding-top: 16px;
 }
 
+/* -------------PORTFOLIO ------------------*/
+
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 /* ---------------FILTERS------------------ */
 
 .main-section-portfolio {
@@ -273,7 +285,8 @@ body {
   flex-direction: row;
   align-items: flex-start;
   gap: 24px;
-  margin-top: 96px;
+
+  padding-bottom: 72px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -299,7 +312,6 @@ body {
   width: 1128px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 120px;
 }
 
 .card-set {
@@ -320,18 +332,21 @@ body {
   margin-top: 48px;
 }
 
+.card-thumb {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .item {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
-  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .app {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--list);
-  margin-top: 8px;
-  margin-bottom: 32px;
 }
