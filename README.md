@@ -1,4 +1,2 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-що таке DOCTYPE 
-що таке Теги верхнбого порядку
