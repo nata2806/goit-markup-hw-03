@@ -183,6 +183,7 @@ body {
 /* ---------------WE CAN------------------ */
 
 .section-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -240,6 +241,7 @@ body {
 }
 
 .person {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -267,7 +269,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--studio-footer);
   width: 264px;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 
 /* -------------PORTFOLIO ------------------*/
@@ -293,6 +295,7 @@ body {
 
 .portfolio-button {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   border: none;
@@ -333,8 +336,7 @@ body {
 }
 
 .card-thumb {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
 }
 
 .item {
