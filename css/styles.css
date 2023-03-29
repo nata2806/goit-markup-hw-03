@@ -213,11 +213,12 @@ body {
 .activity {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
-
 .activity:last-child {
   margin-right: -24px;
+}
+.acttivity-size {
+  padding-bottom: 120px;
 }
 
 /* ---------------OUR TEAM------------------ */
@@ -337,6 +338,8 @@ body {
 
 .card-thumb {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .item {
